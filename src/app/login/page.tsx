@@ -108,7 +108,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     marginLeft: "30%",
     marginTop: "20px",
     borderRadius: "20px",
-    padding: "20px",
+    padding: "30px",
   },
 
   input: {

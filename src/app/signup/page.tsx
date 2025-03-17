@@ -108,7 +108,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     marginLeft: "30%",
     marginTop: "20px",
     borderRadius: "20px",
-    padding: "20px",
+    padding: "30px",
   },
 
   input: {
@@ -147,6 +147,4 @@ const styles: { [key: string]: React.CSSProperties } = {
     alignItems: "center",
     padding: "50px 50px 0px 50px",
   },
-
-
 };
