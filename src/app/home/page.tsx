@@ -3,8 +3,8 @@ import Image from "next/image";
 export  default function HomePage() {
   return (
     <div>
-        <div className="relative w-360 h-84 overflow-hidden opacity-25">
-            <Image src="/avengers.jpg" alt="logo"  layout="fill" objectFit="cover" />
+        <div className="relative w-fill h-[330px] overflow-hidden opacity-25">
+            <Image  src="/welcome.jpg" alt="logo"  layout="fill" objectFit="cover" />
         </div>
         <div className="absolute top-0 right-10 w-120 h-13 flex justify-between pt-5 px-1">
           <div className="font-bold text-xl">Home</div>
@@ -22,6 +22,12 @@ export  default function HomePage() {
             🔍 {/* Replace with an actual icon */}
           </div>
         </div>
+
+        <div className="mt-20 mx-10 flex flex-col">
+          <div className="text-3xl pb-3">Trending</div>
+          <div className=" max-w-full h-70 rounded-2xl bg-[#191919] "></div>
+        </div>
+
     </div>
   );
 }
