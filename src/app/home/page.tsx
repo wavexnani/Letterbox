@@ -6,7 +6,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      <div className="relative w-fill h-[330px] overflow-hidden opacity-10">
+      <div className="relative w-fill h-[330px]  opacity-10">
         <Image src="/welcome.jpg" alt="logo" layout="fill" objectFit="cover" />
       </div>
       <div className="flex-wrap absolute top-0 right-10 flex justify-between gap-x-10 pt-5 px-1">

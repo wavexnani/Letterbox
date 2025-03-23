@@ -1,10 +1,16 @@
 export default function SearchPage() {
     return(
-        <div className="min-h-screen bg-black text-white">
-            <div className="relative">
-                <input type="text" className=" mx-44 mt-6 w-3/4 h-8 rounded-2xl bg-white"/>
-                <button className="absolute w-fit bg-amber-300 pt-1 px-2 pb-1">Search</button>
+        <div>
+            <div className="relative mx-44 to-5% mt-10 w-3/4 h-10 rounded-2xl bg-white">
+                <input type="text" className="absolute top-0 w-full  h-10 rounded-2xl text-black bg-white"/>
+                <button className="absolute right-0 w-fit rounded-2xl font-bold h-10 bg-amber-300 pt-1 px-6 pb-1">Search</button>
             </div> 
+            
+            <div className="">
+                <div></div>
+            </div>
+
+
         </div>
     );
 }
